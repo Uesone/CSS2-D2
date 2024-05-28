@@ -37,14 +37,47 @@ header {
 
 @media screen and (min-width: 800px) {
   header {
-    padding: 1em;
-    height: 30%;
+    padding: 0;
+    width: 100%;
+  }
+  header .brand img {
+    margin-bottom: 20px;
+  }
+  header .brand,
+  header nav,
+  header .brand p {
+    display: inline-block;
+  }
+
+  header .brand {
+    width: 75%;
+  }
+  header .brand img {
+    vertical-align: middle;
+  }
+  header .brand p {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 1199px) {
   header .brand img {
     margin-bottom: 20px;
+  }
+  header .brand,
+  header nav,
+  header .brand p {
+    display: inline-block;
+  }
+
+  header .brand {
+    width: 75%;
+  }
+  header .brand img {
+    vertical-align: middle;
+  }
+  header .brand p {
+    margin-bottom: 0;
   }
 }
 
